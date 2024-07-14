@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(100, 235, 161, 0.671),rgba(255, 255, 255, 0.5)),url(https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519__340.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.title{
+    width: 60%;
+    display: inline-block;
+    margin: 150px auto 0;
+    color: #000;
+    text-align: center;
+}
+.title h1{
+    margin-bottom: 30px;
+}
+.title p{
+    font-size: 13px;
+    line-height: 22px;
+}
+.row{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.col{
+    flex-basis: 22%;
+    text-align: center;
+    color: #555;
+}
+.counter-box{
+    width: 100%;
+    height: 100%;
+    background: #12192c;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -4px #66676c;
+    color:#fff;
+}
+h2,span{
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 50px;
+    color: #fff;
+}
+.counter-box .fa{
+    font-size: 40px;
+    color: rgba(16, 211, 97, 0.603);
+    display: block;
+}
+.credit a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .credit {
+      margin-top: 10px;
+      text-align: center;
+  }
+
